@@ -14,6 +14,7 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -21,6 +22,7 @@ A = np.array([[1,-3],[3,1]])
 B = np.array([0,10])
 X = np.linalg.solve(A,B)
 print(X)
+```
 ## Output:<img width="1206" height="204" alt="image" src="https://github.com/user-attachments/assets/3bdc52e0-ed06-4a14-9f2b-7e6baf5fab1c" />
 
 ## Result: 
